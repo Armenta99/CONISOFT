@@ -1,0 +1,66 @@
+
+.comitte-subrayado{
+  border-bottom: solid 2px gray;
+  /*border-top: solid 3px blue;*/
+  /*padding: 0px;*/
+  margin: 0px;
+  background-color: grey;
+}
+.comittee-text {
+  font-size: small;
+  color: gray;
+  text-align: center;
+
+}
+.izquierda {
+  float: left;
+}
+h2 {
+  font-size:  40px;
+  color: white;
+  text-align: center;
+}
+
+a {
+	color: #73C6B6 ;
+	
+}
+
+.altura {
+  height: 100px;
+
+}
+.wrapper { /*poner el comite en una cuadricula*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.imagenes-pastedition {
+  float:left;
+  height: 140px;
+  padding:15px;
+}
+
+
+.logos-container {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+.logo-content {
+  width: 400px;
+  margin-top:10px;
+}
+.logos-content {
+  width: 130px;
+  margin-top:10px;
+  margin-left: 20px;
+}
+
+.logos-content img{
+width: 250%;
+}
+
+

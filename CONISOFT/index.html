@@ -1,0 +1,1025 @@
+<!-- 
+Nombre: Armenta Peña José Francisco, Amaya Sandoval Jovanny, Yepiz Luviano Jonathan.
+Materia: Diseño de interfaces.
+Trabajo: Proyecto CONISOFT
+Descripción: Página CONISOFT.
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+
+<!-- CSS DE BOOTSTRAP -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="./css/mystyle.css">
+       <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="./css/animate.css" />  
+	  <!-- Custom JavaScript for this theme -->
+  <script src="./JS/boot.bundle.min.js"></script>
+  <script src="./JS/JQBOT.min.js"></script>
+  <script src="./JS/JQPLUG.min.js"></script>
+  <script src="./JS/navscroll.js"></script>
+	
+  <link rel="stylesheet" href="./css/icons.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- ICONOS -->  
+  <script src="https://kit.fontawesome.com/a7c23c5ee5.js" crossorigin="anonymous"></script>
+
+<!-- TITULO EN LA PAGINA -->
+<head>
+	<title> CONISOFT 2022 </title>
+	<link rel="icon" href="./Image/LOGO22.png">
+<!-- ESTILOS-->
+	<!-- Animación de Navbar-->
+	<style> 
+	
+	
+div.anim {
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+@keyframes example {
+  50%  {background-color:#2c6f72; left:0px; top:70px;}
+  100% {background-color:#215256; left:0px; top:40px;}
+}
+</style>
+	
+	<style> 
+
+</style>
+	
+</head>
+
+
+<body>
+<!-- CONTENEDOR INICIAL -->
+<div style="text-align: center;background-image: url('./Image/B2.png');background-repeat: no-repeat; background-size: cover;" class="jumbotron  bg-success text-white" id="t0">
+<br><br>
+		<center>
+			<img src="./Image/LOGO22.png" alt="Logo CONISOFT" width="320" height="240">
+		</center>
+</div>
+
+
+<div class="container">
+<div class="row">
+  <div class="col-4" style="background-color:#215256; text-white">
+		<h2><i class="fa-solid fa-clock"></i> Event Date</h2>
+		<Center>
+		<p style="color:white; font-size:48px">October 24-28, 2022</p>
+		</Center>
+  </div>
+  <div class="col-4" style="background-color:#2c6f72; text-white">
+		<h2><i class="fa-solid fa-circle-dollar-to-slot"></i> COST</h2>
+			<p style="color:white;"> <b>Latin American authors (in Mexican Pesos)</b></p>
+			<p style="color:white;">1 Paper: $4,000 MXN</p>
+			<p style="color:white;">1 Additional paper: $2,000 MXN</p>
+			<p style="color:white;"><b>Non-Latin American Authors (Rest of world)</b></p>
+			<p style="color:white;">1 Paper: USD $500</p>
+			<p style="color:white;">1 Additional paper: USD $350</p>
+			<p style="color:white;"><b>* A third paper must paid full fee</b></p>
+            
+  </div>
+  <div class="col-4" style="background-color:#215256; text-white">
+		<h2><i class="fa-solid fa-book-open"></i>  CALL FOR PAPER</h2>
+		<p style="color:white;font-size:48px">Download our CFP</p>
+		  <center>
+		  <a href="documents/CFP_CONISOFT2022_v5.pdf" target="_blank">
+                 <H1 style="font-size:120px"> <i class="fa-solid fa-file-pdf"></i><H1>
+                </a>
+			</center>
+  </div>
+</div>
+</div>
+
+<!-- FIN CONTENEDOR INICIAL -->
+
+
+<!-- BARRA DE NAVEGACIÓN -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" style="background-color:#0a141a" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#t0">
+      <img
+        src="./Image/LOGO22.png"
+        height="60"
+        alt="MDB Logo"
+        loading="lazy"
+      />
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">  
+		    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          CONISOFT
+        </a>
+        <div class="dropdown-menu anim" style="background-color:#0a141a" aria-labelledby="navbarDropdown">
+			<a class="nav-link js-scroll-trigger" href="#t1">WELCOME</a>
+            <a class="nav-link js-scroll-trigger" href="#t2">JIISIC'22</a>
+            <a class="nav-link js-scroll-trigger" href="#t3">TOPICS</a>
+		
+			
+        </div>
+      </li>
+	  
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          REGISTRATION
+        </a>
+        <div class="dropdown-menu anim" style="background-color:#0a141a" aria-labelledby="navbarDropdown">
+			<a class="nav-link js-scroll-trigger" href="#t4">CFP</a>
+            <a class="nav-link js-scroll-trigger" href="#t5">SUBMISSION</a>
+            <a class="nav-link js-scroll-trigger" href="#t6">REGISTRATION</a>
+        </div>
+      </li>   
+	  
+	   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          EVENT
+        </a>
+        <div class="dropdown-menu anim" style="background-color:#0a141a" aria-labelledby="navbarDropdown">
+			<a class="nav-link js-scroll-trigger" href="#t7">COMMITTEES</a>
+			    <a class="nav-link js-scroll-trigger" href="#t9">CODE OF CONDUCT</a>
+				 <a class="nav-link js-scroll-trigger" href="#t10">PAST EDITIONS</a>
+			   <a class="nav-link js-scroll-trigger" href="#t11">SPONSORS</a>
+        </div>
+      </li>   	 
+			 <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#t8">VENUE</a>
+          </li>   
+                
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#t12">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- FIN DE LA BARRA DE NAVEGACIÓN -->
+
+<!-- WELCOME -->
+
+<section id="t1">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+  <div class="container">
+  <br>
+    <h1 style="text-align:center">Welcome</h1>
+    <p class="lead" ><b>Regarding the COVID 19 pandemic, to safeguard the health of participants, CONISOFT 2022 conference will be hybrid.</b></p>
+	<p class="lead">The 10th International Conference in Software Engineering Research and Innovation (CONISOFT 2022) will be held at Universidad Tecnológica Bilingüe Internacional y Sustentable de Puebla, October 24-28, 2022. The purpose of the conference is to bring together practitioners and researchers from academy, industry, and government in order to advance the state of the art in Software Engineering, as well as generating synergy between academy and industry, defining a collaboration strategy to support and promote the development of the software industry in Mexico and worldwide. Papers that combine theory and practice are especially welcome.</p>
+	<p class="lead text-danger"><b>Submission Deadline: May 31, 2022 </b></p>
+  </div>
+</div>
+</section>
+
+<!-- FIN DE WELCOME -->
+
+
+<!-- JIISIC'22 -->
+<section id="t2">
+<div class="jumbotron jumbotron-fluid  text-white"  style="background-color:#0a141a">
+  <div class="container">
+    <br>
+	<h1  class="section-heading"style="text-align:center">JIISIC</h1>
+	
+	<p class="lead">The Ibero-American Conference on Software Engineering and Knowledge Engineering (JIISIC) is a space for the exchange of knowledge, experiences and good practices on frontier issues related to Computer Science.</p>
+	<p class="lead">From the first version in 2001 until today, JIISIC has summoned more participants every year and has become a meeting of high value for scientists, teachers, technicians and students from all the countries of the region. Its participants form and expand a solid network of contacts, broaden the perspectives of scientific and professional cooperation and define new lines of technology transfer.</p>	
+	 <center>
+	 <a href="https://www.uautonoma.cl/jiisic2021/" target="_blank">
+              <img src="./Image/JIISIC22.png" alt="Logo JIISIC" width="360" height="140">
+            </a>
+	</center>
+  </div>
+</div>
+
+</section>
+
+
+<!-- FIN DE JIISIC'22 -->
+
+
+<!-- TOPICS -->
+<section id="t3">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+ 	<div class="container">
+	<br>
+		  <h1 class="animate__animated animate__bounce animate__faster" style="text-align:center">TOPICS</h1>
+		  <br>
+		<div class="row">
+			<div class="col-sm-6 col-md-6 topic-item animated">
+				
+				<h3><i class="fa-solid fa-list"></i>  Temas básicos:</h3>
+                <ul type="disc">
+                	<br><li>Ingeniería de requerimientos.
+                	<li>Modelado de sistemas: lenguajes, mecanismos de formalización.
+                	<li>Arquitectura y diseño de software.
+                	<li>Modelos y sistemas de calidad.
+                	<li>Modelos de procesos.
+                	<li>Mecanismos de verificación y técnicas de pruebas.
+                	<li>Mantenimiento de software.
+                	<li>Calidad: métricas y mediciones.
+                	<li>Ingeniería de Software Social.
+                	<li>Enseñanza de la ingeniería de software.
+                </ul>
+			</div>
+			<div class="col-sm-6 col-md-6 topic-item animated" >
+				
+				<h3><i class="fa-solid fa-hand"></i>  Interacción con otras disciplinas:</h3>
+                <ul type="disc">
+              		<br><li>Diseño centrado en el usuario: Interacción humano-computadora, Ingeniería de usabilidad.
+                	<li>Aspectos sociales en la ingeniería de software: psicología, sociología.
+                </ul>
+			</div>
+            </div>
+            <div class="row">
+			<div class="col-sm-6 col-md-6 topic-item animated" >
+				
+				<h3><i class="fa-solid fa-arrow-trend-up"></i>  Tendencias en la ingeniería de software:</h3>
+                <ul type="disc">
+					<br><li>Construcción de sistemas complejos: sistemas de recomendación.
+                	<li>Modelado y administración del conocimiento.
+                	<li>Metologías de apoyo: metodologías basadas en agentes, procesamiento de lenguaje natural, aprendizaje máquina.
+                </ul>
+			</div>
+        	<div class="col-sm-6 col-md-6 topic-item animated" >
+            
+            <h3><i class="fa-solid fa-book"></i>  Modalidades de participación:</h3>
+            <ul type="disc">
+            	<br><li>Artículos científicos: Investigación original, básica y experimental.
+            	<li>Experiencias en la industria: Situaciones vividas en la industria, casos de éxito.
+				<li>Trabajos de tesis: licenciatura, maestría y doctorado.
+            </ul>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-6 col-md-6 topic-item animated">
+            
+            <h3><i class="fa-solid fa-bullhorn"></i>  Publicación de trabajos:</h3>
+            	<br><p>Memorias IEEE con ISBN. Los mejores trabajos serán seleccionados para someter versiones extendidas a Journal y 		Revistas CONACYT.</p>
+<p>Para que un trabajo sea publicado es necesario cubrir la cuota de inscripción para autores y presentar el trabajo en el evento.
+La presentación de los trabajos aceptados será de 20 minutos, con 10 minutos para preguntas.</p>
+            </div>
+            <div class="col-sm-6 col-md-6 topic-item animated" >
+           
+            <h3><i class="fa-solid fa-globe"></i>  Idioma para los trabajos:</h3>
+            <ul type="disc">
+            	<br><li>Los trabajos a presentar podrán estar redactadas en idioma <b>Español</b> o <b>Inglés.</b></li>
+                <li>El formato oficial para los trabajos a enviar puede descargarse en los formatos: [<a href="downloads/instruct.doc" download="Formato para los trabajos">Word</a> - <a href="downloads/instruct.pdf" download="Formato para los trabajos">PDF</a>].</li>
+                <li>El envío de artículos se hará a través de la plataforma <a href="https://easychair.org/conferences/?conf=conisoft2015" target="_blank"> Easychair</a>.</li>
+                </ul>
+            </div>
+        </div>
+	</div>
+</div>
+
+</section>
+
+
+<!-- FIN DE TOPICS -->
+
+
+<!-- CFP -->
+<section id="t4">
+<div class="jumbotron jumbotron-fluid  text-white"  style="background-color:#0a141a">
+  <div class="container">
+  <br>
+    <h1  style="text-align:center">Call for papers</h1>
+	<h3>Participation Modalities (Types of works)</h3>
+              <ul>
+                <li><b class="lead">Track 1:</b> CONISOFT, scientific papers in English (original research, basic and experimental).
+                  <a href="https://cmt3.research.microsoft.com/CONISOFT2022">Link to send</a> 
+                  </li>
+                <li><b class="lead">Track 2:</b> CONISOFT, Work in progress in English. Papers describing works that are at an early stage of
+                  the investigation.  <a href="https://cmt3.research.microsoft.com/CONISOFT2022">Link to send</a> </li>
+                  <li><b class="lead">Track 3:</b> JIISIC, Scientific papers in Spanish (original research, basic and experimental)  <a href="https://cmt3.research.microsoft.com/JIISIC2022">Link to send</a> </li>
+                  
+              </ul>
+              <p>Paper length: (a) Scientific papers (Track 1, Track 3) will be submitted as full papers, from 8 pages and up to 10 pages; and (b) works in progress (Track 2) will be submitted as short papers, from 6 pages and up to 8.</p>
+              <p>Papers must be original works, not have been published before, nor subjected simultaneously to other events.</p>
+              <p>Submitted papers will be evaluated by an international reviewers committee composed of renowned researchers and professionals, which can be consulted on the Web site of the conference.</p>
+              <p> <strong>Languages:</strong> Due to the joint organization of CONISOFT and JIISIC, the organizing committee agreed for this year, the CONISOFT will accept articles in English and for the JIISIC they will be accepted in Spanish</p>
+         <h3>Important dates</h3>
+              <ul>
+                <li><b class="lead">Paper Submission:</b> May 31, 2022</li>
+                <li><b class="lead">Notification of Acceptance:</b> July 8, 2022</li>
+                <li><b class="lead">Sending Final Version in EasyChair:</b> August 14, 2022</li>
+                <li><b class="lead">Early - Registration:</b> August 27, 2022</li>
+                <li><b class="lead">Payment Deadline:</b> August 21, 2022</li>	
+                <li><b class="lead">CONISOFT 2022:</b> October 24-28, 2022</li>				  
+              </ul>
+          <h3>Download CFP </h3>
+		   <a href="documents/CFP_CONISOFT2022_v5.pdf" target="_blank">
+                 <H1 style="font-size:120px"> <i class="fa-solid fa-file-pdf"></i><H1>
+                </a>
+  </div>
+</div>
+
+</section>
+
+
+<!-- FIN DE CFP -->
+
+
+<!-- SUBMISSION -->
+<section id="t5">
+<br><br><br><br>
+<h1  style="text-align:center">Submission</h1>
+<div class="container">
+<div class="row">
+  <div class="col-6" style="background-color:#1b392d; text-white">
+  <center>
+		<h2 style="color: white;">To write your paper, please use the official template:
+		 <a href="Documents/DOT_Template.doc"> 
+				<h1 style="font-size:90px"><i class="fa-solid fa-file-word"></i></h1>
+                </a>
+		<a href="Documents/PDF_Template.pdf" target="_blank"> 
+				<h1 style="font-size:90px"><i class="fa-solid fa-file-pdf"></i></h1>
+                </a>
+		<a href="Documents/LATEX_Template.zip"> 
+				<h1 style="font-size:90px">LaTex</h1>
+                </a>
+		</h2>
+	</center>	
+  </div>
+  <div class="col-6" style="background-color:#215256; text-white">
+  <center>
+		<h2 style="color: white;">Send your papers using the following link to Microsoft CMT</h2>
+		<
+		<a href="https://cmt3.research.microsoft.com/CONISOFT2022" target="_blank">
+                  <img class="altura rounded-circle" src="./Image/CMT.png" alt="CMT logo"> 
+                  <p class="lead">CONISOFT Tracks</p>
+                </a>
+				
+		 <a href="https://cmt3.research.microsoft.com/JIISIC2022" target="_blank">
+                  <img class="altura rounded-circle" src="./Image/CMT.png" alt="CMT logo"> 
+                  <p class="lead">JIISIC Track</p>
+                </a>
+		</center>
+  </div>
+</div>
+<div class="row" style="background-color:#0a141a; text-white">
+<center>
+		<h2 style="color: white;">Final Version</h2>
+		<p style="color:white;font-size:20px;">For sending final version, please follow the directions from IEEE Conference Publishing Services (CPS). CPS WILL BE CONTACTING THE AUTHORS OF THE ACCEPTED PAPERS SOON.</p>
+  <center>
+  <br>
+  </div>
+  </div>
+
+</section>
+
+
+
+<!-- FIN DE SUBMISSION -->
+
+
+<!-- REGISTRATION -->
+<section id="t6">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+  <div class="container">
+
+  <br>
+    <h1 style="text-align:center">Registration</h1>
+          <h3>Authors rates</h3>
+            <h4>Latin American authors (in Mexican Pesos)</h4>
+                <ul>
+                  <li><b class="lead">1 Paper:</b> $4,000 MXN</li>
+                  <li><b class="lead">1 Additional paper:</b> $2,000 MXN</li>
+                </ul>
+                <p>* A third paper must paid full fee</p>
+            <h4>Non-Latin American Authors (Rest of world)</h4>
+                <ul>
+                  <li><b class="lead">1 Paper:</b> USD $500</li>
+                  <li><b class="lead">1 Additional paper:</b> USD $350</li>
+                </ul>
+                <p>* A third paper must paid full fee</p> 
+          <h3>Attendees rates</h3>      
+            <h4>General Public</h4>
+                <ul>
+                  <li><b class="lead">Latin American General Public:</b> $300 MXN</li>
+                  <li><b class="lead">Non-Latin American General Public:</b> $25 USD</li>
+                </ul>
+          <h3>Payment Information</h3>      
+                <ul>
+                  <li><b class="lead">Account Name: </b>UNIVERSIDAD AUTÓNOMA DEL ESTADO DE BAJA CALIFORNIA</li>
+                  <li><b class="lead">Bank Name: </b>SANTANDER</li>
+                  <li><b class="lead">Account Number: </b>65500598900</li>
+                  <li><b class="lead">Clabe (Iban Code): </b>014028655005989002</li>
+                  <li><b class="lead">Switf Code: </b>BMSXMXMMXXX (or BMSXMXMM)</li>
+                  <li><b class="lead">Bank Branch Number: </b>442</li>
+                  <li><b class="lead">Bank Branch Name: </b>BANCO SANTANDER</li>
+                  <li><b class="lead">City: </b>TIJUANA</li>     
+                  <li><b class="lead">Bank Address: </b>AV. VENUSTIANO CARRANZA 17124, OTAY CONSTITUYENTES</li>   
+                  <li><b class="lead">Concept of Payment: </b>Pago de inscripción al CONISOFT 2022 (ID de articulo) (or "Registration payment to CONISOFT 2022 (Paper ID)")</li>                                                    
+                </ul>    
+
+  </div>
+</div>
+
+</section>
+
+
+<!-- FIN DE REGISTRATION -->
+
+
+<!-- COMMITTEES -->
+<section id="t7">
+ <div class="jumbotron jumbotron-fluid  text-white"  style="background-color:#0a141a">
+  <div class="container">
+  <br>
+    <h1  style="text-align:center">COMMITTEES</h1>
+	 <ul>
+          <li><h3>General Chair | <strong>Reyes Juárez Ramírez</strong>  | UABC (México) </h3></li>
+          <li><h3>Co-chair | <strong>Mtro. Jesús Alfonso Cruz Valencia</strong>  | Universidad Tecnológica Bilingüe Internacional y Sustentable de Puebla</h3></li>
+          <li><h3>Co-chair | <strong>César Jesús Pardo Calvache</strong>  | Universidad del Cauca</h3></li>
+		 </ul>
+            <div id="accordion"> <!-- inicios de acordeon-->
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      CONISOFT Standing Committee
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="wrapper">
+                        <div><h2 class="comittee-text">HANNA OKTABA</h2></div>
+                        <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                        <div><h2 class="comittee-text">MÉXICO</h2></div>
+                        <div><h2 class="comittee-text">REYES JUÁREZ RAMÍREZ</h2></div>
+                        <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                        <div><h2 class="comittee-text">MÉXICO</h2></div>
+                        <div><h2 class="comittee-text">ALAIN ABRAN</h2></div>
+                        <div><h2 class="comittee-text">ÉCOLE DE TECHNOLOGIE SUPÉRIEURE - UNIVERSITÉ DU QUÉBEC</h2></div>
+                        <div><h2 class="comittee-text">CANADA</h2></div>
+                        <div><h2 class="comittee-text">MARIO PIATTINI VELTHUIS</h2></div>
+                        <div><h2 class="comittee-text">ALARCOS RESEARCH GROUP - UNIVERSIDAD DE CASTILLA-LA MANCHA</h2></div>
+                        <div><h2 class="comittee-text">SPAIN</h2></div>                      
+                        <div><h2 class="comittee-text">ANDREI TCHERNYKH</h2></div>
+                        <div><h2 class="comittee-text">CENTRO DE INVESTIGACIÓN CIENTÍFICA Y EDUCACIÓN SUPERIOR DE ENSENADA</h2></div>
+                        <div><h2 class="comittee-text">MÉXICO</h2></div>                      
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+              <div class="card"> <!--CONISOFT Steering committee-->
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      CONISOFT Steering committee
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="wrapper">
+                      <div><h2 class="comittee-text">GUADALUPE IBARGÜENGOITIA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">BRENDA LETICIA RÍOS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">OMAR SALVADOR GÓMEZ GÓMEZ</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>
+                      <div><h2 class="comittee-text">CÉSAR ARTURO GUERRA GARCÍA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                      
+                      <div><h2 class="comittee-text">CARLOS MARIO ZAPATA JARAMILLO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DE COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>
+                      <!--<div><h2 class="comittee-text">HECTOR G. PÉREZ GONZÁLEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>-->
+                      <div><h2 class="comittee-text">CARLOS ALBERTO FERNANDEZ Y FERNANDEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD TECNOLÓGICA DE LA MIXTECA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">FRANCISCO VALDÉS SOUTO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">JORGE AGUILAR CISNEROSs</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POPULAR AUTÓNOMA DEL ESTADO DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">SAMANTHA PAULINA JIMÉNEZ CALLEROS</h2></div>
+                      <div><h2 class="comittee-text">SAN DIEGO GLOBAL KNOWLEDGE UNIVERSITY</h2></div>
+                      <div><h2 class="comittee-text">USA</h2></div>                      
+                      <div><h2 class="comittee-text">ALAN RAMÍREZ NORIEGA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SINALOA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">SODEL VÁZQUEZ REYES</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE ZACATECAS</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                        
+                      <div><h2 class="comittee-text">JAVIER ORTIZ HERNÁNDEZ</h2></div>
+                      <div><h2 class="comittee-text">CENTRO NACIONAL DE INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">MIGUEL MORALES-SANDOVAL</h2></div>
+                      <div><h2 class="comittee-text">CENTRO DE INVESTIGACIÓN Y DE ESTUDIOS AVANZADOS</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                                        
+                    </div>  
+                  </div>
+                </div>
+              </div>
+              <div class="card"> <!-- CONISOFT Technical committee -->
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      CONISOFT Reviewers Committee
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="wrapper">
+                      <div><h2 class="comittee-text">ALAIN ABRAN</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITÉ DU QUÉBEC</h2></div>
+                      <div><h2 class="comittee-text">CANADA</h2></div>
+                      <div><h2 class="comittee-text">ABRAHAM RODRÍGUEZ MOTA</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO POLITÉCNICO NACIONAL</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">ALAN RAMÍREZ NORIEGA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SINALOA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">ALEJANDRA ALDRETTE MALACARA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POPULAR AUTÓNOMA DEL ESTADO DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                      
+                      <div><h2 class="comittee-text">ALEXANDER BARÓN SALAZAR</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE NARIÑO</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>
+                      <!--<div><h2 class="comittee-text">ALFONSO RODRIGUEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DEL BIO BIO</h2></div>
+                      <div><h2 class="comittee-text">CHILE</h2></div>-->
+                      <div><h2 class="comittee-text">ANDREA DELGADO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE LA REPÚBLICA</h2></div>
+                      <div><h2 class="comittee-text">URUGUAY</h2></div>
+                      <div><h2 class="comittee-text">ANDRÉS FLORES</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DEL COMAHUE</h2></div>
+                      <div><h2 class="comittee-text">ARGENTINA</h2></div>
+                      <div><h2 class="comittee-text">ANDRES OMAR PORTILLO DOMINGUEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITY COLLEGE DUBLIN</h2></div>
+                      <div><h2 class="comittee-text">IRELAND</h2></div>
+                      <div><h2 class="comittee-text">ANGENLICA CARO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DEL BIO BIO</h2></div>
+                      <div><h2 class="comittee-text">CHILE</h2></div>
+                      <div><h2 class="comittee-text">ANTONIO AGUILETA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE YUCATÁN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                      
+                      <div><h2 class="comittee-text">ARGELIA BERENICE URBINA NAJERA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POPULAR AUTÓNOMA DEL ESTADO DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">ARNULFO ALANIS GARZA</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLOGICO DE TIJUANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">BLANCA HIDALGO</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>
+                      <!--<div><h2 class="comittee-text">BOGART YAIL MÁRQUEZ</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO DE TIJUANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>-->
+                      <div><h2 class="comittee-text">BRANDAN SULLIVAN</h2></div>
+                      <div><h2 class="comittee-text">POLITECNICO DI MILANO</h2></div>
+                      <div><h2 class="comittee-text">ITALY</h2></div>
+                      <div><h2 class="comittee-text">BRENDA L. FLORES RÍOS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">CARINA GONZÁLEZ GONZÁLEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE LA LAGUNA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">CARLOS ALBERTO FERNANDEZ Y FERNANDEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD TECNOLÓGICA DE LA MIXTECA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">CARLOS MARIO ZAPATA JARAMILLO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DE COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">CÉSAR ARTURO GUERRA GARCÍA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">CLAUDIA ELENA DURANGO VANEGAS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE SAN BUENAVENTURA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">DIANA MARÍA TORRES RICAURTE</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DE COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">ERÉNDIRA JIMÉNEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">ERNESTO EXPOSITO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITÉ DE PAU ET DES PAYS DE L'ADOUR</h2></div>
+                      <div><h2 class="comittee-text">FRANCE</h2></div>
+                      <div><h2 class="comittee-text">EVERTH HAYDEÉ ROCHA TREJO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD TECNOLÓGICA DE LA MIXTECA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">FRANCISCO ALVAREZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE AGUASCALIENTES</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">FRANCISCO VALDÉS SOUTO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">GABRIELA SOLÍS MAGAÑA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE YUCATÁN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">GILBERTO BORREGO</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO DE SONORA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">GLORIA ARCOS</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>
+                      <div><h2 class="comittee-text">GUADALUPE IBARGUENGOITIA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>     
+                      <div><h2 class="comittee-text">GUDELIA PILAR PEREZ CONDE</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POLITÉCNICA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                                                                                                                                                                                                                         
+                      <div><h2 class="comittee-text">GUILLERMO LICEA SANDOVAL</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <!--<div><h2 class="comittee-text">HANNA OKTABA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">HÉCTOR DURÁN</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE GUADALAJARA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  -->
+                      <div><h2 class="comittee-text">HÉCTOR GERARDO PÉREZ GONZÁLEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">HERMAN GEOVANY AYALA ZÚÑIGA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA INDÍGENA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                     <!-- <div><h2 class="comittee-text">GUADALUPE IBARGUENGOITIA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  -->
+                      <div><h2 class="comittee-text">IGNACIO GARCÍA RODRÍGUEZ DE GUZMÁN</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE CASTILLA - LA MANCHA</h2></div>
+                      <div><h2 class="comittee-text">SPAIN</h2></div>  
+                      <div><h2 class="comittee-text">JAIME MUÑOZ-ARTEAGA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE AGUASCALIENTES</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JAIRO HERNANA APONTE MELO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DE COLOMBIA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div>  
+                      <div><h2 class="comittee-text">JAVIER ORTIZ HERNÁNDEZ</h2></div>
+                      <div><h2 class="comittee-text">CENTRO NACIONAL DE INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                                                                                                                                                                                                       
+                      <div><h2 class="comittee-text">JESÚS SOTO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA INDÍGENA DE MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JESÚS ANTONIO SANTOS TEJER</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO SUPERIOR DE VALLADOLID</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JORGE R. AGUILAR CISNEROS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POPULAR AUTÓNOMA DEL ESTADO DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JORGE EDUARDO IBARRA-ESQUER</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JORGE OCTAVIO OCHARÁN-HERNÁNDEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD VERACRUZANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JOSÉ DAVID ALANÍS URQUIETA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD TECNOLÓGICA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div> 
+                      <div><h2 class="comittee-text">JOSE L. LOPEZ MARTINEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTONOMA DE YUCATAN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JOSE MIGUEL MENDIVIL TORRES</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SINALOA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JOSEFINA GUERRERO GARCÍA</h2></div>
+                      <div><h2 class="comittee-text">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                                                                                                                                                                                  
+                      <div><h2 class="comittee-text">JOSIANE KROLL</h2></div>
+                      <div><h2 class="comittee-text">PONTIFICIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL</h2></div>
+                      <div><h2 class="comittee-text">BRASIL</h2></div>    
+                      <div><h2 class="comittee-text">JUAN CARLOS PEREZ ARRIAGA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD VERACRUZANA/h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">JUAN FRANCISCO FIGUEROA PÉREZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SINALOA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JUAN MANUEL GONZÁLEZ CALLEROS</h2></div>
+                      <div><h2 class="comittee-text">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">JUAN PABLO UCÁN PECH</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE YUCATÁN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">JULIO CESAR DÍAS MENDOZA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE YUCATÁN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">KAREN CORTES</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD VERACRUZANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">KARINA ROMERO</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLOGICO DE TIJUANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">LAURA CECILIA RODRÍGUEZ MARTÍNEZ</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO DE AGUASCALIENTES</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">LIZBETH ALEJANDRA HERNÁNDEZ-GONZÁLEZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD VERACRUZANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">LORENA AGUIRRE</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>
+                      <div><h2 class="comittee-text">LUIS FERNANDO CASTRO ROJAS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD NACIONAL DE COLOMBIA - UNIVERSIDAD DEL QUINDÍO</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div> 
+                      <div><h2 class="comittee-text">LUIS JAVIER ONTANON</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">LUZ A. SÁNCHEZ-GÁLVEZ</h2></div>
+                      <div><h2 class="comittee-text">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">MARÍA DE LOS ANGELES MORAGA DE LA RUBIA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD UNIVERSIDAD DE CASTILLA - LA MANCHA</h2></div>
+                      <div><h2 class="comittee-text">SPAIN</h2></div>   
+                      <div><h2 class="comittee-text">MARCO TULIO RAMIREZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SAN LUIS POTOSÍ</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">MARÍA DE LEÓN SIGG</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE ZACATECAS</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <!--<div><h2 class="comittee-text">MARIA ANGELICA ASTORGA VARGAS</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div> -->  
+                      <div><h2 class="comittee-text">MARIA DE LA CONCEPCION PEREZ DE CELIS HERRERO</h2></div>
+                      <div><h2 class="comittee-text">BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">MARÍA DEL ROSARIO PERALTA CALVO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE LA CAÑADA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">MARIO ANZURES-GARCÍA</h2></div>
+                      <div><h2 class="comittee-text">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">MARIO ROSSAINZ LÓPEZ</h2></div>
+                      <div><h2 class="comittee-text">BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>
+                      <div><h2 class="comittee-text">MÁXIMO LÓPEZ</h2></div>
+                      <div><h2 class="comittee-text">CENTRO NACIONAL DE INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">MAYA CARRILLO</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO NACIONAL DE ASTROFÍSICA, ÓPTICA Y ELECTRÓNICA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>       
+                      <div><h2 class="comittee-text">MIGUEL MORALES-SANDOVAL</h2></div>
+                      <div><h2 class="comittee-text">CENTRO DE INVESTIGACIÓN Y DE ESTUDIOS AVANZADOS</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>     
+                      <div><h2 class="comittee-text">OMAR S. GÓMEZ</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>  
+                      <div><h2 class="comittee-text">OSCAR MARIO RODRÍGUEZ ELÍAS</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO DE HERMOSILLO</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>                               
+                      <div><h2 class="comittee-text">RAJ RAMACHANDRAN</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITY OF THE WEST OF ENGLAND</h2></div>
+                      <div><h2 class="comittee-text">ENGLAND</h2></div>  
+                      <div><h2 class="comittee-text">RAUL LEAL</h2></div>
+                      <div><h2 class="comittee-text">UCL CENTRE FOR SYSTEMS ENGINEERING</h2></div>
+                      <div><h2 class="comittee-text">ENGLAND</h2></div>  
+                      <div><h2 class="comittee-text">RAUL HERNÁN ROSERO MIRANDA</h2></div>
+                      <div><h2 class="comittee-text">ESCUELA SUPERIOR POLITÉCNICA DE CHIMBORAZO</h2></div>
+                      <div><h2 class="comittee-text">ECUADOR</h2></div>  
+                      <div><h2 class="comittee-text">RAUL ANTONIO AGUILAR VERA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE YUCATÁN</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">REYES JUÁREZ RAMÍREZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE BAJA CALIFORNIA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>  
+                      <div><h2 class="comittee-text">RICARDO VALERDI</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITY OF ARIZONA</h2></div>
+                      <div><h2 class="comittee-text">USA</h2></div>  
+                      <div><h2 class="comittee-text">ROSA MARÍA CANTÓN CRODA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD POPULAR AUTÓNOMA DEL ESTADO DE PUEBLA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>    
+                      <div><h2 class="comittee-text">SAMANTHA PAULINA JIMÉNEZ CALLEROS</h2></div>
+                      <div><h2 class="comittee-text">INSTITUTO TECNOLÓGICO DE TIJUANA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">SANDRA LORENA BUITRÓN RUIZ </h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DEL CAUCA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div> 
+                      <div><h2 class="comittee-text">SEBASTIÁN GÓMEZ JARAMILLO </h2></div>
+                      <div><h2 class="comittee-text">TECNOLÓGICO DE ANTIOQUIA</h2></div>
+                      <div><h2 class="comittee-text">COLOMBIA</h2></div> 
+                      <div><h2 class="comittee-text">SODEL VÁZQUEZ REYES</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE ZACATECAS</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">VANESSA AYALA-RIVERA</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSITY COLLEGE DUBLIN</h2></div>
+                      <div><h2 class="comittee-text">IRELAND</h2></div>   
+                      <div><h2 class="comittee-text">VÍCTOR H. CASTILLO</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD DE COLIMA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                      <div><h2 class="comittee-text">YOBANI MARTÍNEZ RAMÍREZ</h2></div>
+                      <div><h2 class="comittee-text">UNIVERSIDAD AUTÓNOMA DE SINALOA</h2></div>
+                      <div><h2 class="comittee-text">MÉXICO</h2></div>   
+                
+                    </div> 
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- fin de acordeon-->
+        </div>
+ 
+
+
+</section>
+
+
+<!-- FIN DE COMMITTEES -->
+
+
+<!-- VENUE -->
+<section id="t8">
+<div class="container">
+<br><br>
+<br><br>
+<h1  style="text-align:center">Venue</h1>
+
+<div class="row">
+  <div class="col-3">
+  <center>
+		     <h3>CONISOFT 2022 is hosted by Universidad Tecnológica Bilingüe Internacional y Sustentable de Puebla</h3> 
+          <p> Boulevard Audi sur S/N, Ciudad Modelo, San José Chiapa, Puebla, México. 75010 </p>
+          <p> Website:<a href="https://utbispuebla.edu.mx" target="_blank">https://utbispuebla.edu.mx</a> </p>
+          <p> Tel: 276 690 6500 </p>
+          <p> Email: <a href="mailto:conisoft2022@utbispuebla.edu.mx">conisoft2022@utbispuebla.edu.mx</a> </p>
+  </center>
+  </div>
+  <div class="col-9" >
+		<center>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.516249960939!2d-97.77875955042428!3d19.216319986943773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c557f9ba8d1cb5%3A0xd8f6d5306203d9ba!2sUniversidad%20Tecnol%C3%B3gica%20Biling%C3%BCe%20Internacional%20y%20Sustentable!5e0!3m2!1ses-419!2smx!4v1642167830786!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</center>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- FIN DE VENUE -->
+
+
+<!-- CODE OF CONDUCT -->
+<section id="t9">
+<br><br><br><br><br>
+<div class="jumbotron jumbotron-fluid  text-white"  style="background-color:#0a141a">
+  <div class="container">
+    <h1  style="text-align:center">Code of conduct </h1>
+    <p class="lead" style="text-align:center"><b>CONISOFT prohibits retaliation against any member here at CONISOFT who reports or participates in an investigation of a possible violation of our Code, policies, or the law. If you believe you are being retaliated against, please contact our Ethics & Compliance representative.</b></p>
+					<center>
+	
+			   <a target="_blank" href="./Documents/CONISOFT_Code_of_Conduct_v3.0.pdf"> 
+				<h1 style="font-size:90px"><i class="fa-solid fa-file-pdf"></i></h1>
+                </a>
+					</center>
+           
+	
+ 
+ </div>
+</div>
+
+</section>
+
+
+<!-- FIN DE CODE OF CONDUCT -->
+
+
+<!-- PAST EDITIONS -->
+<section id="t10">
+<br><br><br><br><br><br>
+ <div style="text-align: center;background-image: url('./Image/P1.png');background-repeat: no-repeat; background-size: cover;" class=" shadow rounded  jumbotron  bg-success text-white" >
+        <h1" class="display-4"><b>Past editions</b></h1>
+          
+            <p class="lead">
+              <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://liim.izt.uam.mx/amis/conisoft2012/" role="button">&nbsp;&nbsp;2012&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="https://www.uv.mx/noticias/2013/10/01/estadistica-e-informatica-sede-del-conisoft-2013/" role="button">&nbsp;&nbsp;2013&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2015/" role="button">&nbsp;&nbsp;2015&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=47912" role="button">&nbsp;&nbsp;2016&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2017/" role="button">&nbsp;&nbsp;2017&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2018/public/" role="button">&nbsp;&nbsp;2018&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2019/public/" role="button">&nbsp;&nbsp;2019&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2020" role="button">&nbsp;&nbsp;2020&nbsp;&nbsp;</a>
+			  <a target="_blank" class="btn btn-success btn-lg" 
+              href="http://conisoft.org/2021" role="button">&nbsp;&nbsp;2021&nbsp;&nbsp;</a>
+            </p>
+          </div>
+
+</section>
+
+
+<!-- FIN DE PAST EDITIONS -->
+
+
+<!-- SPONSORS -->
+<section id="t11">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+  <div class="container">
+  <br>
+    <h1  style="text-align:center">Sponsors</h1>
+<center>
+    <table class="table">
+	   <tr>
+        
+        <td><a href="https://www.rottentomatoes.com/tv/breaking_bad" target="_blank"><img src="./Image/Sponsors/CENIDET.png" alt="Breaking bad" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"/> </a></td>
+		<td><a href="https://www.rottentomatoes.com/m/scarface" target="_blank"><img src="./Image/Sponsors/uas.png" alt="Scarface" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"//></a></td>	
+		<td><a href="https://www.rottentomatoes.com/m/1029112-alice_in_wonderland" target="_blank"><img src="./Image/Sponsors/LogoUAZ.png" alt="Alicia en el pais de las maravillas" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"//></a></td>
+      
+    
+        
+		
+      </tr>
+	  
+      <tr>
+  
+		<td><a href="https://www.rottentomatoes.com/m/1029112-alice_in_wonderland" target="_blank"><img src="./Image/Sponsors/redmis9.png" alt="Alicia en el pais de las maravillas" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"// ></a></td>
+        
+		<td><a href="https://www.sensacine.com/peliculas/pelicula-213654/" target="_blank"><img src="./Image/Sponsors/UAIM.png" alt="Y donde esta el fantasma?" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"//></a></td>
+        <td><a href="https://www.rottentomatoes.com/m/the_lion_king" target="_blank"><img src="./Image/Sponsors/SG.png" alt="El rey león" onmouseover="this.width=180;this.height=150;" onmouseout="this.width=150;this.height=100;" width="150" height="100"//></a></td>
+      
+        
+      </tr>
+<!--      
+	 <tr>
+       
+        <td><a href="https://www.rottentomatoes.com/m/the_conjuring" target="_blank"><img src="./Image/Sponsors/UPAEP.png" alt="El conjuro" onmouseover="this.width=300;this.height=200;" onmouseout="this.width=280;this.height=180;" width="280" height="180"/></a></td>
+        <td><a href="https://www.rottentomatoes.com/m/the_conjuring_2" target="_blank"><img src="./Image/Sponsors/UACJ.png" alt="El conjuro 2" onmouseover="this.width=300;this.height=200;" onmouseout="this.width=280;this.height=180;" width="280" height="180"/></a></td>
+        <td><a href="https://www.sensacine.com/peliculas/pelicula-227834/" target="_blank"><img src="./Image/Sponsors/UADY.png" alt="La maldición" onmouseover="this.width=300;this.height=200;" onmouseout="this.width=280;this.height=180;" width="280" height="180"/></a></td>
+        <td><a href="https://www.rottentomatoes.com/m/tarzan" target="_blank"><img src="././Image/Sponsors/SanDiego.png" alt="Tarzan" onmouseover="this.width=300;this.height=200;" onmouseout="this.width=280;this.height=180;" width="280" height="180"/></a></td>
+        
+      </tr>
+  --> 
+    
+    </table>
+</center>
+
+ 
+  </div>
+</div>
+
+
+
+
+</section>
+
+
+<!-- FIN DE SPONSORS -->
+
+
+
+<!-- CONTACT -->
+<section id="t12">
+<div class="jumbotron jumbotron-fluid bg-white text-dark">
+  <div class="container">
+  <br>
+  <Center>
+    <h1  style="text-align:center">Contact</h1>
+     <p style="font-size:20px"><i class="fa-solid fa-user"></i> J. Reyes Juárez Ramírez (General Chair)</p>
+                <p style="font-size:20px"><i class="fa-solid fa-envelope"></i></i> reyesjua@uabc.edu.mx </p>
+                <p style="font-size:20px"><i class="fa-solid fa-phone"></i> + 52 (664) 9797500 EXT. 54335 </p>
+                <p style="font-size:20px"><i class="fa-solid fa-location-arrow"></i></i> Universidad Autónoma de Baja California<br><i></i><i></i><i></i>Facultad de Ciencias Químicas e Ingeniería </p>
+   </Center>
+  </div>
+</div>
+
+</section>
+
+
+<!-- FIN DE CONTACT -->
+
+
+
+
+
+
+<div class="jumbotron jumbotron-fluid text-white" style="background-color:#0a141a">
+  <div class="container">
+    <h1  style="text-align:center">TECNOLÓGICO NACIONAL DE MÉXICO</h1>
+    <p class="lead" style="text-align:center"><b>Instituto Tecnológico de Tijuana</b></p>
+	<p class="lead" style="text-align:center">Amaya Sandoval Jovanny</p>
+	<p class="lead" style="text-align:center">Armenta Peña José Francisco</p>
+	<p class="lead" style="text-align:center">Yepiz Luviano Jonathan</p>
+  </div>
+</div>
+
+
+</body>
+</html>
